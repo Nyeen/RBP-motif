@@ -1,6 +1,7 @@
 from Bio import SeqIO
 import pandas as pd
 import glob
+from tqdm import tqdm
 
 
 def bed_to_csv(bed_file, fasta_file):
