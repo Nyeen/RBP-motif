@@ -43,8 +43,8 @@ def main():
     fasta_file = 'RIP-seq/hg19.fa'
     bed_files = glob.glob('bed_files/*.bed')
     for i in tqdm (range (len(bed_files)), desc="Converting..."):
-    bed_file = bed_files[i]
-    bed_to_csv(bed_file, fasta_file)
+        bed_file = bed_files[i]
+        bed_to_csv(bed_file, fasta_file)
 
 if __name__ == "__main__":
     main()
