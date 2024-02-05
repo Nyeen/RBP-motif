@@ -41,7 +41,7 @@ def bed_to_csv(bed_file, fasta_file):
     return
 
 def main():
-    fasta_file = 'RIP-seq/hg19.fa'
+    fasta_file = 'rip-seq/hg19.fa'
     bed_files = glob.glob('bed_files/*.bed')
     for i in tqdm (range (len(bed_files)), desc="Converting..."):
         bed_file = bed_files[i]
