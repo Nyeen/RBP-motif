@@ -1,7 +1,6 @@
 import pandas as pd
 from tqdm import tqdm
 
-fasta_file = 'RIP-seq/hg38.fa'
 motif_data = 'RBP_human.txt'
 
 '''motif data has been loaded in a pandas dataframe with proper column label'''
