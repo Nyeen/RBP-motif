@@ -3,7 +3,7 @@ The scripts in this directory are used to prepare data for CNN training and the 
 * hg38.fa
 * Individual motif files of RBPs from POSTAR3/human.txt
 
-
+ 
 The steps are as follows, run the scripts in the following order.
 1. First script to run, 'extract_gene.py' uses 'gencode.v38lift37.annotation.gtf' file to extract gene start and end position to identify RBP location.
 2. Secondly, run 'rbp_pairs_genes.py' file.
