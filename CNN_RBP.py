@@ -32,20 +32,20 @@ if flanking_sequence:
     try:
         dfp = pd.read_csv('Data_Preparation/positive_wf_'+str(flanking_sequence_length)+'.csv')
     except:
-        dfp = pd.read_csv('positive.csv')
+        dfp = pd.read_csv('Data_Preparation/positive.csv')
         dfp = ut.add_flanking_sequence(dfp, length = flanking_sequence_length)
-        dfp.to_csv('positive_wf_'+str(flanking_sequence_length)+'.csv', index = False)
+        dfp.to_csv('Data_Preparation/positive_wf_'+str(flanking_sequence_length)+'.csv', index = False)
         
     try:
-        dfn = pd.read_csv('negative_wf_'+str(flanking_sequence_length)+'.csv')
+        dfn = pd.read_csv('Data_Preparation/negative_wf_'+str(flanking_sequence_length)+'.csv')
     except:
-        dfn = pd.read_csv('negative.csv')
+        dfn = pd.read_csv('Data_Preparation/negative.csv')
         dfn = ut.add_flanking_sequence(dfn, length = flanking_sequence_length)
-        dfn.to_csv('negative_wf_'+str(flanking_sequence_length)+'.csv', index = False)
+        dfn.to_csv('Data_Preparation/negative_wf_'+str(flanking_sequence_length)+'.csv', index = False)
 
 else:
-    dfp = pd.read_csv('positive.csv')
-    dfn = pd.read_csv('negative.csv')
+    dfp = pd.read_csv('Data_Preparation/positive.csv')
+    dfn = pd.read_csv('Data_Preparation/negative.csv')
 
 
 
