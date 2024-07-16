@@ -16,14 +16,14 @@ mode = 'pstack'
 
 if flanking_sequence:
     try:
-        df = pd.read_csv('positive_wf_'+str(flanking_sequence_length)+'.csv')
+        df = pd.read_csv('Data_Preparation/positive_wf_'+str(flanking_sequence_length)+'.csv')
     except:
-        df = pd.read_csv('positive.csv')
+        df = pd.read_csv('Data_Preparation/positive.csv')
         df = cnn_ut.add_flanking_sequence(df, length = flanking_sequence_length)
-        df.to_csv('positive_wf_'+str(flanking_sequence_length)+'.csv', index = False)
+        df.to_csv('Data_Preparation/positive_wf_'+str(flanking_sequence_length)+'.csv', index = False)
 
 else:
-    df = pd.read_csv('positive.csv')
+    df = pd.read_csv('Data_Preparation/positive.csv')
 
 x_positive, y_positive = cnn_ut.get_data_label(df, label = 1, cut_off = cut_off, mode = mode)
 x_positive = x_positive.astype('float32')
