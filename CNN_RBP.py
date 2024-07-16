@@ -30,7 +30,7 @@ mode = 'pstack'
 
 if flanking_sequence:
     try:
-        dfp = pd.read_csv('positive_wf_'+str(flanking_sequence_length)+'.csv')
+        dfp = pd.read_csv('Data_Preparation/positive_wf_'+str(flanking_sequence_length)+'.csv')
     except:
         dfp = pd.read_csv('positive.csv')
         dfp = ut.add_flanking_sequence(dfp, length = flanking_sequence_length)
