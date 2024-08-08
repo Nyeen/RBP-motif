@@ -7,6 +7,7 @@ For data analysis, feature engineering, training CNN and clustering process, we 
 It is an updated CLIP-seq database consisting of RBP binding sites information for 7 species, including human, mouse, zebra fish, fly, worm, Arabidopsis, and yeast. This is the source of "human.txt" file.
 ### UCSC genome browser [2]
 It is a very well-known bio-informatics resource or database for genomics research, containing various annotations along with whole sequence data regularly updated. This is the source of "hg38.fa" file.
+<https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/>
 ### GENCODE [3]
 It is also an up-to-date human and mouse gene annotations database. This is the source of "gencode.v38lift37.annotation.gtf" file.
 
