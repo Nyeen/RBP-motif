@@ -10,6 +10,7 @@ It is a very well-known bio-informatics resource or database for genomics resear
 <https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/>
 ### GENCODE [3]
 It is also an up-to-date human and mouse gene annotations database. This is the source of "gencode.v38lift37.annotation.gtf" file.
+<https://www.gencodegenes.org/human/release_38lift37.html>
 
 ## References
 1. W. Zhao, S. Zhang, Y. Zhu, X. Xi, P. Bao, Z. Ma, T. H. Kapral, S. Chen, B. Zagrovic, Y. T. Yang, et al. Postar3: an updated platform for exploring post-transcriptional regulation coordinated by rna-binding proteins. Nucleic Acids Research, 50(D1):D287–D294, 2022.
