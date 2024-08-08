@@ -4,7 +4,7 @@ RNA binding proteins (RBPs) have unique features for RNA binding regions. Often,
 ## Datasets
 For data analysis, feature engineering, training CNN and clustering process, we have used the following public datasets.
 ### POSTAR3 [1]
-It is an updated CLIP-seq database consisting of RBP binding sites information for 7 species, including human, mouse, zebra fish, fly, worm, Arabidopsis, and yeast. This is the source of "human.txt" file.
+It is an updated CLIP-seq database consisting of RBP binding sites information for 7 species, including human, mouse, zebra fish, fly, worm, Arabidopsis, and yeast. This is the source of "human.txt" file. Request bulk data here, <https://wj.qq.com/s2/10477617/4f84/v>
 ### UCSC genome browser [2]
 It is a very well-known bio-informatics resource or database for genomics research, containing various annotations along with whole sequence data regularly updated. This is the source of "hg38.fa" file.
 <https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/>
